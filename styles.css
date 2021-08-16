@@ -1,0 +1,105 @@
+body {
+  background-color: lightblue;
+}
+
+.tile1,
+.tile2,
+.tile3,
+.tile4,
+.tile5,
+.tile6,
+.tile7,
+.tile8,
+.tile9 {
+  display: table-cell;
+  width: 120px;
+  height: 120px;
+  border: 1px solid white;
+  background: url("https://i.imgur.com/CmFuOpx.png");
+  cursor: pointer;
+}
+
+.tile1 {
+  background-position: left top;
+}
+.tile2 {
+  background-position: center top;
+}
+.tile3 {
+  background-position: right top;
+}
+.tile4 {
+  background-position: left center;
+}
+.tile5 {
+  background-position: center center;
+}
+.tile6 {
+  background-position: right center;
+}
+.tile7 {
+  background-position: left bottom;
+}
+.tile8 {
+  background-position: center bottom;
+}
+.tile9 {
+  background: white;
+  cursor: default;
+}
+
+.Time {
+  display: inline-block;
+}
+
+.new-game-btn {
+  transform: translateX(28.8rem);
+  margin-bottom: 0.6rem;
+}
+
+.pause-btn {
+  margin-top: 0.6rem;
+  width: 360px;
+}
+
+h1 {
+  padding: 2rem;
+  padding-top: 2rem;
+  font-family: "Pacifico", cursive;
+  padding-bottom: 2.5rem;
+  color: white;
+}
+
+.heading {
+  background-color: #4f2250;
+}
+
+.puzzle {
+  transform: translateY(-1rem);
+
+  padding: 6rem;
+  padding-bottom: 12rem;
+}
+.Time {
+  font-family: "Lato", sans-serif;
+}
+
+.time-mover {
+  transform: translate(35rem, 6.7rem);
+}
+
+#Timer {
+  transform: translate(1.1rem, -1rem);
+}
+
+.move-mover {
+  transform: translate(39.5rem, 1.7rem);
+}
+
+#MoveCounter {
+  transform: translate(2.7rem, -1rem);
+}
+
+.PauseButton {
+  margin-bottom: 5rem;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Puzzle Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Sliding Puzzle by 101Computing - www.101computing.net/sliding-puzzle/-->
+    
+        <div class="heading">
+            <h1 class="display-2 text-center">15 Puzzle</h1>
+        </div>
+        
+
+        <button onClick="shuffle();" class="btn btn-dark btn-lg new-game-btn">New Game</button>
+        
+        
+        
+        <div class="Time">
+            <div class="time-mover">
+            <p>TIME</p>
+            <p id="Timer">0s</p>
+            </div>
+
+            <div class="move-mover">
+            <p>MOVES</p>
+            <p id="MoveCounter">0</p>
+            </div>
+            
+        </div>
+
+    <center>
+        <div id="table" style="display: table;">
+            <div id="row1" style="display: table-row;">
+                <div id="cell11" class="tile1"></div>
+                <div id="cell12" class="tile2"></div>
+                <div id="cell13" class="tile3"></div>
+            </div>
+            <div id="row2" style="display: table-row;">
+                <div id="cell21" class="tile4"></div>
+                <div id="cell22" class="tile5"></div>
+                <div id="cell23" class="tile6"></div>
+            </div>
+            <div id="row3" style="display: table-row;">
+                <div id="cell31" class="tile7"></div>
+                <div id="cell32" class="tile8"></div>
+                <div id="cell33" class="tile9"></div>
+            </div>
+        </div>
+       
+        <button onClick="pause();" class="PauseButton btn btn-dark pause-btn">Pause</button>
+    </center>
+
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
